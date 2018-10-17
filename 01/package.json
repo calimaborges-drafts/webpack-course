@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "debug": "node --inspect --inspect-brk ./dist/main.js",
+    "debug:webpack": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js"
   },
   "devDependencies": {
     "webpack": "^4.20.2",
