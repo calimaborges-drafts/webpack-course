@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "debug": "node --inspect --inspect-brk ./dist/main.js",
     "debug:webpack": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js"
